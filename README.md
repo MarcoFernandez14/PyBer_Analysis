@@ -4,12 +4,12 @@ The purpose of the analysis is to perform an exploratory analysis on data in lar
 The final assigment is to create (using Python, Pandas and Matplotlib) a summary DataFrame of the ride-sharing data by city type and a multiple-line graph that shows the total weekly fares for each city type.
 
 ### Evironment
-Python 3.7.3
-Anaconda 1.9.0
-Conda 4.12.0
-Jupyter notebook 6.1.12
-Pandas 1.3.4
-Matplotlib 3.4.3
+Python 3.7.3  
+Anaconda 1.9.0  
+Conda 4.12.0  
+Jupyter notebook 6.1.12  
+Pandas 1.3.4  
+Matplotlib 3.4.3  
 
 ## Results
 ### Data
@@ -32,4 +32,7 @@ We can observe in the chart below that:
 ![fare summary](https://github.com/MarcoFernandez14/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)  
 
 ## Summary
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types
+In order to address the disparities among the city types, PyBer could:
+* Understand if the demand of Rural cities is enough to add more drivers.
+* Understand if reducing the price in Rural cities would imply that even less driver will be willing to serve those cities.
+* Analyze if there is any kind of seasonality in the data by extending data timeframe. 
