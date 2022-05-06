@@ -13,20 +13,23 @@ Matplotlib 3.4.3
 
 ## Results
 ### Data
-In order to understand the differencies of the service by type of city, the ride-sharing data was grouped in ***Urban, Suburban and Rural***.
+In order to understand the differencies of the service by type of city, the ride-sharing data was grouped bu type into ***Urban, Suburban and Rural***.
  
-Images???
+![ridesharing data by type](https://github.com/MarcoFernandez14/PyBer_Analysis/blob/main/analysis/Ridesharing%20data%20by%20type.png)  
 
-* Total rides 
-* Total drivers
-* Ttotal fares 
-* Average fare per ride and driver 
-* Total fare by city type.
+* Total rides: the quantity of rides is superior in Uban cities. The ratio Urban : Suburban  : Rural equals to 13:5:1.    
+* Total drivers: in the same way than rides, the quantity of drivers significantly is larger in Urban cities. This time the ratio Urban : Suburban  : Rural equals to 31:6:1.   
+* Total fares: the total fares are also superior in Urban cities, however, we can observe the ratio Urban : Suburban  : Rural swrincking whcih indicates that prices differ by type of city. The fares ratio Urban : Suburban  : Rural equals to 9:4:1.
+* Average fare per ride and driver: when looking at fares, we can notice that the average fare per ride is higher in Rural cities. Rural cities average fare per ride is 12% higher than in Suburban cities and 41% higher than in Urban cities. Similarly (and even more marked), the average rate per driver in Rural cities is 40% higher than in Suburban cities and 235% higher than in Urban cities.
 
 ### Conclusion
-Line chart???
+We can observe in the chart below that:
+- Urban cities generate the most revenue despite having the lowest average fares per ride and per driver
+- The access to ride-sharing services and affordability is better in Urban cities than in Suburban and Rural cities.
+- The underserved riders in Rural cities use, of course, less the service. However, they are willing to pay higher fares to use the service. 
+- The metrics observed remain steady over the period of time observed (January to April).
 
-
+![fare summary](https://github.com/MarcoFernandez14/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)  
 
 ## Summary
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types
