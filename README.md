@@ -36,3 +36,4 @@ In order to address the disparities among the city types, PyBer could:
 * Understand if the demand of Rural cities is enough to add more drivers.
 * Understand if reducing the price in Rural cities would imply that even less driver will be willing to serve those cities.
 * Analyze if there is any kind of seasonality in the data by extending data timeframe. 
+* Create a company paid bonus for driver that serve Rural cities in order to increase the attractiveness and threfore the service offer. 
